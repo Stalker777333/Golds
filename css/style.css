@@ -1,0 +1,120 @@
+.bg-image {
+    background-image: url('../0302.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-1 {
+    background-image: url('../0301.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-sample {
+    background-image: url('../0302.png');
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: inset 130px 130px 130px rgba(12, 8, 8, 0.7);
+}
+
+.line-1 {
+    width: 800px;
+    height: 8px;
+    background-color: white;
+    position: relative;
+    top: 145px;
+    left: 200px;
+}
+
+.line-2 {
+    width: 420px;
+    height: 8px;
+    background-color: white;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.img-1 {
+    contain: 1200px;
+    position: absolute;
+    top: 20px;
+    right: 470px;
+
+}
+
+.img-2 {
+    position: absolute;
+    top: 400px;
+    left: -40px;
+}
+
+.img-3 {
+    position: absolute;
+    top: -30px;
+    left: 450px;
+
+}
+
+.btn-gr {
+    background-image: linear-gradient(to right, #2680e1, #4679f6, #766bff, #aa52ff, #dd00ff);
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .bg {
+        position: absolute;
+        top: 1%;
+        left: 34%;
+        height: -50%
+    }
+    .text {
+        position: absolute;
+        left: 51%;
+        top: 0%;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+.car2 {
+    height: ;
+    object-fit: cover;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
